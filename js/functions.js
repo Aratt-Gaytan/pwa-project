@@ -20,5 +20,6 @@ function area(){
     var ancho = document.getElementById("ancho").value;
     var alto = document.getElementById("alto").value;
     let rectangulo1 = new Rectangulo(alto, ancho);
-    alert(rectangulo1.calcularArea()); 
+    //alert(rectangulo1.calcularArea()); 
+    alert("Hola mundo");
 }
